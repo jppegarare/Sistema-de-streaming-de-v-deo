@@ -1,3 +1,5 @@
 import { Conteudo } from "./Conteudo";
-import { Filme } from "./Filme";
-import { Serie } from "./Serie";
+
+export abstract class Catalogo {
+    abstract criarConteudo(titulo: string, duracaoMinutos: number): Conteudo;
+}
