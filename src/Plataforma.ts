@@ -21,6 +21,3 @@ export class Plataforma {
     }
 }
 
-const config1 = ConfigStreaming.obterInstancia();
-const config2 = ConfigStreaming.obterInstancia();
-console.log(config1 === config2);
